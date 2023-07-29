@@ -4,7 +4,7 @@
         padding: 0;
         border: none;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-color: aliceblue;
+        background-color: rgb(255, 255, 255);
     }
     
     .imput {
@@ -35,13 +35,13 @@
     #header-01 {
         background-color: #6886a0;
         padding-top: 2%;
-        font-size: 16px;
+        font-size: 13px;
         
     }
     
     #header-02 {
         background-color: #6886a0;
-        font-size: 25px;
+        font-size: 20px;
         padding-bottom: 0.25%;
         padding-top: 0.25%;
     }
@@ -49,7 +49,7 @@
     #header-03 {
         background-color: #6886a0;
         padding-bottom: 2%;
-        font-size: 16px;
+        font-size: 13px;
     }
     
     .quem-somos {
@@ -60,7 +60,7 @@
         padding-bottom: 1%;
         color: rgb(0, 0, 0);
         background-color: #d5dde0;
-        font-size: 12px;
+        font-size: 10.9px;
         
     }
     
@@ -129,7 +129,7 @@
     }
     
     .hospedagem {
-        background-color: aliceblue;
+        background-color: rgb(255, 255, 255);
         padding-bottom: 1%;
         padding-top: 1%;
         margin-top: 2%;
@@ -145,43 +145,53 @@
     }
     
     .desativas {
+        margin-top: 3%;
+    }
+
+    .desativas-text {
         text-align: center;
-        padding-right: 4%;
-        padding-top: 3%;
-        padding-bottom: 1%;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
     }
     
     #title-topicos {
-        font-size: 17px;
-        text-align: left;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 3%;
+        padding-bottom: 2%;
     }
     
     .topicos {
         padding-top: 1%;
-        padding-left: 5%;
+        padding-left: 0%;
         padding-bottom: 1;
-        font-size: 16px;
+        font-size: 17px;
+        text-align: start;
+        list-style: none;
     }
     
     .topicos-text {
         padding-left: 2%;
         padding-right: 3%; 
         font-size: 13px;
+        text-align: center;
     }
     
     .topicos-text-end {
         padding-left: 2%;
         padding-right: 3%;
+        padding-bottom: 3%;
         font-size: 13px;
         padding-bottom: 1%;
+        text-align: center;
     }
     
     .title-conteudo-01 {
         padding-top: 1%;
-        padding-left: 3%;
+        padding-left: 0%;
         padding-bottom: 1;
-        font-size: 17px;
-        text-align: left;
+        font-size: 18px;
+        text-align: center;
     }
     
     .conteudo-01 {
@@ -189,7 +199,7 @@
         padding-left: 2%;
         padding-right: 3%;
         font-size: 13px;
-        text-align: left;
+        text-align: center;
     }
     
     .box-1 {
