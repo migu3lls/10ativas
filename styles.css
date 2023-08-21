@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+.header > h1 {
+    text-align: center;
+    background-color: #03314b;
+    color: white;
+    padding: 18px;
+}
+
+.header > h2 {
+    background-color: #6886a0; 
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.f-text {
+    font-size: 20px ;
+    padding-top: 18px;
+    background-color: #6886a0;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.e-text {
+    font-size: 20px ;
+    padding-bottom: 18px;
+    background-color: #6886a0;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.header > h2 {
+    font-size: 30px;
+}
+
+.header > h5 {
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    background-color: #d5dde0;
+}
+
+.conteudo-01 > div > li {
+    list-style: none;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.conteudo-01 {
+    padding: 30px;
+    font-size: 17px;
+}
+
+.conteudo-01 > div > span {
+    padding: 50px;
+}
+
+#sobre {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.conteudo-02 {
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+.hospedagem {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.planos {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.plano-1 {
+    width: 380px;
+    height: 800px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.plano-2 {
+    width: 380px;
+    height: 800px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.plano-3 {
+    width: 380px;
+    height: 800px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: row;
+}
+
+.planos > h4 {
+    background-color: none; 
+}
+
+
+
+
+
+#botao-01 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.botao-externo {
+    display: inline-block;
+    padding: 13px 40px;
+    background-color: #6200ff; /* Cor de fundo do botão (neste caso, azul) */
+    color: #fff; /* Cor do texto do botão (branco) */
+    text-decoration: none; /* Remover sublinhado padrão de links */
+    border-radius: 4px; /* Bordas arredondadas */
+    font-size: 18px; /* Tamanho do texto */
+    font-weight: bold; /* Texto em negrito */
+    transition: background-color 0.3s; /* Efeito de transição ao passar o mouse */
+  }
+  
+  /* Estilo do botão quando o cursor estiver sobre ele */
+  .botao-externo:hover {
+    background-color: #4e0181; /* Nova cor de fundo ao passar o mouse (tom mais escuro de azul) */
+  }
