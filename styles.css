@@ -85,7 +85,7 @@
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: row;
 }
 
@@ -135,7 +135,6 @@
 
 
 
-
 #botao-01 {
     text-align: center;
     padding-top: 5%;
@@ -158,3 +157,15 @@
   .botao-externo:hover {
     background-color: #4e0181; /* Nova cor de fundo ao passar o mouse (tom mais escuro de azul) */
   }
+
+
+
+
+  @media screen and (max-width: 770px) {
+    .planos {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+}
